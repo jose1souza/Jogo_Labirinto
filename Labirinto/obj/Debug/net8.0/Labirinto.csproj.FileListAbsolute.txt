@@ -1,0 +1,14 @@
+C:\Users\zexni\source\repos\Labirinto\Labirinto\bin\Debug\net8.0\Labirinto.exe
+C:\Users\zexni\source\repos\Labirinto\Labirinto\bin\Debug\net8.0\Labirinto.deps.json
+C:\Users\zexni\source\repos\Labirinto\Labirinto\bin\Debug\net8.0\Labirinto.runtimeconfig.json
+C:\Users\zexni\source\repos\Labirinto\Labirinto\bin\Debug\net8.0\Labirinto.dll
+C:\Users\zexni\source\repos\Labirinto\Labirinto\bin\Debug\net8.0\Labirinto.pdb
+C:\Users\zexni\source\repos\Labirinto\Labirinto\obj\Debug\net8.0\Labirinto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zexni\source\repos\Labirinto\Labirinto\obj\Debug\net8.0\Labirinto.AssemblyInfoInputs.cache
+C:\Users\zexni\source\repos\Labirinto\Labirinto\obj\Debug\net8.0\Labirinto.AssemblyInfo.cs
+C:\Users\zexni\source\repos\Labirinto\Labirinto\obj\Debug\net8.0\Labirinto.csproj.CoreCompileInputs.cache
+C:\Users\zexni\source\repos\Labirinto\Labirinto\obj\Debug\net8.0\Labirinto.dll
+C:\Users\zexni\source\repos\Labirinto\Labirinto\obj\Debug\net8.0\refint\Labirinto.dll
+C:\Users\zexni\source\repos\Labirinto\Labirinto\obj\Debug\net8.0\Labirinto.pdb
+C:\Users\zexni\source\repos\Labirinto\Labirinto\obj\Debug\net8.0\Labirinto.genruntimeconfig.cache
+C:\Users\zexni\source\repos\Labirinto\Labirinto\obj\Debug\net8.0\ref\Labirinto.dll
