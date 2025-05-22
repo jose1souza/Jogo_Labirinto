@@ -47,12 +47,13 @@ class Labirinto
         Stack<(int,int)> pilha = new Stack<(int,int)>();
         // Stack<int> pilha_j = new Stack<int>();
         bool encontrou = false;
-        labirinto[i,j] = 'v'; // marca a posição inicial como visitada
+        if(labirinto[i,j] != 'Q')
+            labirinto[i,j] = 'v'; // marca a posição inicial como visitada
         while (encontrou == false) // não achar o queijo
         {
             if (labirinto[i, j] == 'Q')
             {
-                labirinto[i, j] = 'v';
+                //labirinto[i, j] = 'v';
                 Console.WriteLine("Achou o queijo! :) ");
                 encontrou = true;
                 break;
@@ -64,7 +65,8 @@ class Labirinto
                 //pilha_j.Push(j);
                 j++;
                 count++;
-                labirinto[i, j] = 'v';
+                if(labirinto[i,j] != 'Q')
+                    labirinto[i, j] = 'v';
             }
             else if (labirinto[i + 1, j] == '.' || labirinto[i + 1, j] == 'Q')
             {
@@ -72,7 +74,8 @@ class Labirinto
                 // pilha_j.Push(j);
                 i++;
                 count++;
-                labirinto[i, j] = 'v';
+                if(labirinto[i,j] != 'Q')
+                    labirinto[i, j] = 'v';
             }
             else if (labirinto[i, j - 1] == '.' || labirinto[i, j - 1] == 'Q')
             {
@@ -80,7 +83,8 @@ class Labirinto
                 //pilha_j.Push(j);
                 j--;
                 count++;
-                labirinto[i, j] = 'v';
+                if(labirinto[i,j] != 'Q')
+                    labirinto[i, j] = 'v';
             }
             else if (labirinto[i - 1, j] == '.' || labirinto[i - 1, j] == 'Q')
             {
@@ -88,7 +92,8 @@ class Labirinto
                 //pilha_j.Push(j);
                 i--;
                 count++;
-                labirinto[i, j] = 'v';
+                if(labirinto[i,j] != 'Q')
+                    labirinto[i, j] = 'v';
             }
             else if (pilha.Count > 0)
             {
